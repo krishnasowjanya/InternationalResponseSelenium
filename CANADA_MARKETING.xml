@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Canada_MarketingTestCases">
+<parameter name="country" value="Canada"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+       <class name="internationalTests.Canada.Marketing.RESR015_MRFP"/>
+      <class name="internationalTests.Canada.Marketing.RESR010_PFIC_AnnualInfoStatement"/>
+      <class name="internationalTests.Canada.Marketing.RESR006_ApplicationForms_1"/>
+      <class name="internationalTests.Canada.Marketing.RESR004_FundDocuments_3"/>
+      <class name="internationalTests.Canada.Marketing.RESR012_PlanningMegamenu"/>
+      <class name="internationalTests.Canada.Marketing.RESR007_ApplicationForms_2"/>
+      <class name="internationalTests.Canada.Marketing.INST003_OurInsights"/>
+      <class name="internationalTests.Canada.Marketing.RESR011_PointOfSaleFundFactDocuments"/>
+      <class name="internationalTests.Canada.Marketing.RESR013_IndependentReviewCommitee"/>
+      <class name="internationalTests.Canada.Marketing.RESR003_FundDocuments_2"/>
+      <class name="internationalTests.Canada.Marketing.RESR008_SupportingLegalDocuments"/>
+      <class name="internationalTests.Canada.Marketing.RESR014_QuarterlyPortfolioDisclosure"/>
+      <class name="internationalTests.Canada.Marketing.RESR002_FundDocuments_1"/>
+      <class name="internationalTests.Canada.Marketing.RESR005_ApplicationForms"/>
+      <class name="internationalTests.Canada.Marketing.RESR009_NonResidentTaxForms"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- MarketingTestCases -->

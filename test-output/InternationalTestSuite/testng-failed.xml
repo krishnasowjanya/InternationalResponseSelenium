@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InternationalTestSuite]">
+  <test name="Test">
+    <classes>
+      <class name="internationalTests.FOComponents"/>
+      <class name="internationalTests.ppssMainTabValidation"/>
+      <class name="internationalTests.ppssFndIdentifiesrTab"/>
+      <class name="internationalTests.FOFndInfromationWidget"/>
+      <class name="internationalTests.ppssFndIdentifiesrTabFilter"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="internationalTests.FOFndInfromationWidget">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- internationalTests.FOFndInfromationWidget -->
+      <class name="internationalTests.ppssMainTabValidation">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- internationalTests.ppssMainTabValidation -->
+      <class name="internationalTests.ppssFndIdentifiesrTabFilter">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- internationalTests.ppssFndIdentifiesrTabFilter -->
+      <class name="internationalTests.FOComponents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="validateOverviewPageForFund" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setValues"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- internationalTests.FOComponents -->
+      <class name="internationalTests.ppssFndIdentifiesrTab">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- internationalTests.ppssFndIdentifiesrTab -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [InternationalTestSuite] -->

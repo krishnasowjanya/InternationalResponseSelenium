@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Offshore_Intl_Suite">
+<parameter name="country" value="Offshore"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.Offshore.PFOL020_PortfolioStatistics_Equity"/>
+<!--       <class name="internationalTests.Offshore.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/> -->
+      <class name="internationalTests.Offshore.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Offshore.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Offshore.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Offshore.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Offshore.PFOL016_SectorExposure"/>
+<!--       <class name="internationalTests.Offshore.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/> -->
+      <class name="internationalTests.Offshore.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Offshore.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Offshore.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Offshore.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Offshore.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Offshore.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Offshore.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Offshore.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Offshore.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Offshore.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Offshore.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Offshore.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Offshore.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Offshore.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Offshore.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Offshore.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Offshore.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Offshore.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Offshore.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Offshore.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Offshore.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Offshore.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Offshore.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Offshore.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.Offshore.PDST005_PriceAndDistributionDividends"/>
+<!--       <class name="internationalTests.Offshore.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/> -->
+      <class name="internationalTests.Offshore.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Offshore.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Offshore.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Offshore.FDOC001_FDDocumentWidgets"/>
+<!--       <class name="internationalTests.Offshore.PERF018_PerformanceDiscreteAnnualPerformanceTab"/> -->
+      <class name="internationalTests.Offshore.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Offshore.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Offshore.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Offshore.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Offshore.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Offshore.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.Offshore.FOVW008_Overview_DividendDistributionYield"/>
+<!--       <class name="internationalTests.Offshore.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/> -->
+      <class name="internationalTests.Offshore.PPSS006_FundIdentifiersTab"/>
+<!--       <class name="internationalTests.Offshore.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.Offshore.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Offshore.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Offshore.PPSS002_Performance_Cumulative"/>
+<!--       <class name="internationalTests.Offshore.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/> -->
+      <class name="internationalTests.Offshore.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Offshore.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+<!--       <class name="internationalTests.Offshore.PFOL009_NumberOfIssuers"/> -->
+<!--       <class name="internationalTests.Offshore.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/> -->
+      <class name="internationalTests.Offshore.PPSS001_PageNavigationAndOverview"/>
+<!--       <class name="internationalTests.Offshore.FOVW004_Overview_Sales_Charge"/> -->
+      <class name="internationalTests.Offshore.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Offshore.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Offshore.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+<!--       <class name="internationalTests.Offshore.FOVW009_Overview_PerfSnpDiscrete_Performance"/> -->
+      <class name="internationalTests.Offshore.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Offshore.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Offshore.FOVW013_Overview_FindAFund"/>
+<!--       <class name="internationalTests.Offshore.PPSS003_Performance_DiscreteAnnaul"/> -->
+      <class name="internationalTests.Offshore.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Offshore.PPSS005_Performance_CumulativeDataMonthEnd"/>
+<!--       <class name="internationalTests.Offshore.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/> -->
+   <class name="internationalTests.Offshore.PPSS003_Performance_Annualized"/>
+      <class name="internationalTests.Offshore.PPSS004_Performance_AnnualizedDataMonthEnd"/>
+         <class name="internationalTests.Offshore.PPSS010_Performance_AnnualizedDataQuarterEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test">
+    <classes>
+      <class name="internationalTests.Luxembourg.FOVW001_Overview_NAVPrice"/>
+      <class name="internationalTests.Luxembourg.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Luxembourg.FOVW003_Overview_Fund_Information"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="internationalTests.Luxembourg.FOVW003_Overview_Fund_Information">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setValues"/>
+        </methods>
+      </class> <!-- internationalTests.Luxembourg.FOVW003_Overview_Fund_Information -->
+      <class name="internationalTests.Luxembourg.FOVW001_Overview_FundContent">
+        <methods>
+          <include name="validateSummaryOfFundObjective"/>
+          <include name="afterMethod"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- internationalTests.Luxembourg.FOVW001_Overview_FundContent -->
+      <class name="internationalTests.Luxembourg.FOVW001_Overview_NAVPrice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setValues"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- internationalTests.Luxembourg.FOVW001_Overview_NAVPrice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

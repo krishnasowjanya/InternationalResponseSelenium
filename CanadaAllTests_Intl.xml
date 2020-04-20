@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Canada_Intl_Suite">
+<parameter name="country" value="Canada"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.Canada.PFOL020_PortfolioStatistics_Equity"/>
+<!--       <class name="internationalTests.Canada.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/> -->
+      <class name="internationalTests.Canada.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Canada.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Canada.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Canada.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+<!--       <class name="internationalTests.Canada.PFOL016_SectorExposure"/> -->
+<!--       <class name="internationalTests.Canada.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/> -->
+      <class name="internationalTests.Canada.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Canada.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Canada.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Canada.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Canada.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Canada.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Canada.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Canada.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Canada.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+<!--       <class name="internationalTests.Canada.PPSS011_Performance_CumulativeDataQuarterEnd"/> -->
+      <class name="internationalTests.Canada.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Canada.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Canada.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Canada.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Canada.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Canada.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Canada.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Canada.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Canada.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Canada.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Canada.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+<!--       <class name="internationalTests.Canada.PFOL007_PortfolioStatistics_FixedIncome"/> -->
+      <class name="internationalTests.Canada.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+<!--       <class name="internationalTests.Canada.PFOL013_PortfolioValueAtRisk"/> -->
+      <class name="internationalTests.Canada.PDST005_PriceAndDistributionDividends"/>
+<!--       <class name="internationalTests.Canada.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/> -->
+      <class name="internationalTests.Canada.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Canada.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Canada.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Canada.FDOC001_FDDocumentWidgets"/>
+<!--       <class name="internationalTests.Canada.PERF018_PerformanceDiscreteAnnualPerformanceTab"/> -->
+      <class name="internationalTests.Canada.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Canada.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+<!--       <class name="internationalTests.Canada.PFOL017_SectorAllocation"/> -->
+      <class name="internationalTests.Canada.PERF006_PerformanceCumulativePerformanceCaveats"/>
+<!--       <class name="internationalTests.Canada.PFOL014_PortfolioAllocation"/> -->
+      <class name="internationalTests.Canada.PPSS007_PPSSPage_Filters"/>
+<!--       <class name="internationalTests.Canada.FOVW008_Overview_DividendDistributionYield"/> -->
+<!--       <class name="internationalTests.Canada.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/> -->
+      <class name="internationalTests.Canada.PPSS006_FundIdentifiersTab"/>
+<!--       <class name="internationalTests.Canada.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.Canada.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Canada.FOVW012_Overview_BreadCrumbs"/>
+<!--       <class name="internationalTests.Canada.PPSS002_Performance_Cumulative"/> -->
+<!--       <class name="internationalTests.Canada.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/> -->
+<!--       <class name="internationalTests.Canada.PFOL015_TopRiskAllocationByAssetClass"/> -->
+      <class name="internationalTests.Canada.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+<!--       <class name="internationalTests.Canada.PFOL009_NumberOfIssuers"/> -->
+<!--       <class name="internationalTests.Canada.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/> -->
+      <class name="internationalTests.Canada.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Canada.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Canada.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Canada.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Canada.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Canada.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Canada.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Canada.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Canada.FOVW013_Overview_FindAFund"/>
+<!--       <class name="internationalTests.Canada.PPSS003_Performance_DiscreteAnnaul"/> -->
+      <class name="internationalTests.Canada.PFOL011_PortfolioStrategyBreakdown"/>
+<!--       <class name="internationalTests.Canada.PPSS005_Performance_CumulativeDataMonthEnd"/> -->
+<!--       <class name="internationalTests.Canada.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/> -->
+   <class name="internationalTests.Canada.PPSS003_Performance_Annualized"/>
+      <class name="internationalTests.Canada.PPSS004_Performance_AnnualizedDataMonthEnd"/>
+         <class name="internationalTests.Canada.PPSS010_Performance_AnnualizedDataQuarterEnd"/>
+           <class name="internationalTests.Canada.PPSS011_Performance_CalendarDataQuarterEnd"/>
+            <class name="internationalTests.Canada.PPSS005_Performance_CalendarDataMonthEnd"/>
+             <class name="internationalTests.Canada.PPSS002_Performance_Calendar"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rem Suite" >
+<parameter name="country" value="UK"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.UK.Marketing.HOME012_Caveats"/>
+      <class name="internationalTests.UK.Marketing.HOME013_Contacts"/>
+      <class name="internationalTests.UK.Marketing.HOME009_FeaturedFunds_FundDetails"/>
+      <class name="internationalTests.UK.Marketing.HOME003_BenLogo"/>
+      <class name="internationalTests.UK.Marketing.HOME011_FooterLinks"/>
+      <class name="internationalTests.UK.Marketing.HOME004_Banner"/>
+      <class name="internationalTests.UK.Marketing.HOME001_RoleSelector"/>
+      <class name="internationalTests.UK.Marketing.SRCH001_SiteSearch"/>
+      <class name="internationalTests.UK.Marketing.HOME005_QuickLinks"/>
+      <class name="internationalTests.UK.Marketing.HOME007_Insights"/>
+      <class name="internationalTests.UK.Marketing.HOME006_FeaturedCards"/>
+      <class name="internationalTests.UK.Marketing.HOME014_Careers"/>
+      <class name="internationalTests.UK.Marketing.HOME008_FeaturedFunds"/>
+      <class name="internationalTests.UK.Marketing.HOME015_UKLogo_SiteMaps"/>
+      <class name="internationalTests.UK.Marketing.HOME010_FeaturedFunds_FundDocuments"/>
+      <class name="internationalTests.UK.Marketing.HOME002_MegaMenu"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

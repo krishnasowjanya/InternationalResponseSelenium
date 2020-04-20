@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Austria_Intl_Suite">
+<parameter name="country" value="Austria"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.Austria.PFOL020_PortfolioStatistics_Equity"/>
+      <class name="internationalTests.Austria.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.Austria.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Austria.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Austria.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Austria.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Austria.PFOL016_SectorExposure"/>
+      <class name="internationalTests.Austria.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Austria.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Austria.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Austria.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Austria.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Austria.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Austria.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Austria.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Austria.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Austria.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Austria.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Austria.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Austria.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Austria.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Austria.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Austria.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Austria.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Austria.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Austria.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Austria.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Austria.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Austria.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Austria.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Austria.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Austria.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.Austria.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.Austria.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.Austria.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Austria.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Austria.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Austria.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.Austria.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.Austria.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Austria.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Austria.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Austria.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Austria.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Austria.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.Austria.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.Austria.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Austria.PPSS006_FundIdentifiersTab"/>
+    <!--   <class name="internationalTests.Austria.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.Austria.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Austria.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Austria.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.Austria.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.Austria.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Austria.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+<!--       <class name="internationalTests.Austria.PFOL009_NumberOfIssuers"/> -->
+      <class name="internationalTests.Austria.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.Austria.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Austria.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Austria.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Austria.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Austria.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Austria.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Austria.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Austria.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Austria.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.Austria.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.Austria.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Austria.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.Austria.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

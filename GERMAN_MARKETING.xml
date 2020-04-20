@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" German_MarketingTestCases">
+<parameter name="country" value="German"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+        <class name="internationalTests.German.Marketing.INST003_OurInsights"/>
+      <class name="internationalTests.German.Marketing.PTAX002_German_HistoricalPriceTaxPage"/>
+      <class name="internationalTests.German.Marketing.ARCH001_GermanArchives"/>
+      <class name="internationalTests.German.Marketing.HOME005_FeaturedFunds"/>
+      <class name="internationalTests.German.Marketing.RESR003_FundDocuments_2"/>
+      <class name="internationalTests.German.Marketing.PRSS001_PressReleases"/>
+      <class name="internationalTests.German.Marketing.HOME003_QuickLinkValidation_Institutional"/>
+      <class name="internationalTests.German.Marketing.RESR004_FundDocuments_3"/>
+      <class name="internationalTests.German.Marketing.HOME002_QuickLinkValidation_Advisor"/>
+      <class name="internationalTests.German.Marketing.HOME006_LearnMore_InvestmentStrategies"/>
+      <class name="internationalTests.German.Marketing.HOME004_Billboard_LatestBlog_InvestmentTheme"/>
+      <class name="internationalTests.German.Marketing.ARCH002_GermanReports"/>
+      <class name="internationalTests.German.Marketing.PTAX001_German_PriceTaxPage"/>
+      <class name="internationalTests.German.Marketing.RESR002_FundDocuments_1"/>
+      <class name="internationalTests.German.Marketing.HOME001_QuickLinkValidation_Investor"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- MarketingTestCases -->

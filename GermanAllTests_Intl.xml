@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="German_Intl_Suite">
+<parameter name="country" value="German"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.German.PFOL020_PortfolioStatistics_Equity"/>
+      <class name="internationalTests.German.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.German.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.German.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.German.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.German.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.German.PFOL016_SectorExposure"/>
+      <class name="internationalTests.German.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.German.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.German.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.German.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.German.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.German.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.German.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.German.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.German.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.German.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.German.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.German.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.German.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.German.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.German.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.German.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.German.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.German.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.German.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.German.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.German.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.German.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.German.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.German.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.German.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.German.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.German.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.German.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.German.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.German.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.German.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.German.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.German.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.German.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.German.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.German.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.German.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.German.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.German.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.German.PPSS006_FundIdentifiersTab"/>
+<!--       <class name="internationalTests.German.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.German.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.German.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.German.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.German.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.German.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.German.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+<!--       <class name="internationalTests.German.PFOL009_NumberOfIssuers"/> -->
+      <class name="internationalTests.German.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.German.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.German.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.German.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.German.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.German.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.German.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.German.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.German.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.German.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.German.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.German.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.German.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.German.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

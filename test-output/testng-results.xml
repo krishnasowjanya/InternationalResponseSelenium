@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74351" started-at="2018-11-23T13:57:03Z" finished-at="2018-11-23T13:58:18Z">
+    <groups>
+      <group name="FundOverview">
+        <method signature="PERF030_PerformanceRiskMeasures_OvrvwStaticSection.validatePerformanceRiskMeasuresOverviewAndStatic()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="validatePerformanceRiskMeasuresOverviewAndStatic" class="internationalTests.Luxembourg.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      </group> <!-- FundOverview -->
+    </groups>
+    <test name="Default test" duration-ms="74351" started-at="2018-11-23T13:57:03Z" finished-at="2018-11-23T13:58:18Z">
+      <class name="internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="beforeSuite" is-config="true" duration-ms="131" started-at="2018-11-23T19:27:03Z" finished-at="2018-11-23T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-11-23T19:27:03Z" finished-at="2018-11-23T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="setValues" is-config="true" duration-ms="0" started-at="2018-11-23T19:27:03Z" finished-at="2018-11-23T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="beforeMethod" is-config="true" duration-ms="9578" started-at="2018-11-23T19:27:04Z" finished-at="2018-11-23T19:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NotFromTestNGXML]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validatePerformanceRiskMeasuresOverviewAndStatic()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="validatePerformanceRiskMeasuresOverviewAndStatic" duration-ms="63484" started-at="2018-11-23T19:27:13Z" finished-at="2018-11-23T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePerformanceRiskMeasuresOverviewAndStatic -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="afterMethod" is-config="true" duration-ms="1277" started-at="2018-11-23T19:28:17Z" finished-at="2018-11-23T19:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePerformanceRiskMeasuresOverviewAndStatic status=SUCCESS method=PERF030_PerformanceRiskMeasures_OvrvwStaticSection.validatePerformanceRiskMeasuresOverviewAndStatic()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-11-23T19:28:18Z" finished-at="2018-11-23T19:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection@49fc609f]" name="afterSuite" is-config="true" duration-ms="351" started-at="2018-11-23T19:28:18Z" finished-at="2018-11-23T19:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f415a95]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- internationalTests.German.PERF030_PerformanceRiskMeasures_OvrvwStaticSection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

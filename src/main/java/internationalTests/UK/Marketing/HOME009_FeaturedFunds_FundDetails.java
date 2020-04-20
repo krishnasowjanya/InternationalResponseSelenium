@@ -1,0 +1,40 @@
+package internationalTests.UK.Marketing;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import internationalPages.Products.PriceAndPerformancePage;
+import internationalPages.Products.UKHomePage;
+import wdMethods.ProjectMethods;
+
+public class HOME009_FeaturedFunds_FundDetails extends  ProjectMethods{
+	
+	@BeforeClass
+	public void setValues() {
+		browserName = "chrome";
+		excelName = "Funds";
+		excelSheetName="";
+		authors = "Prateek";
+		category = "Smoke";
+		testCaseName = "Marketing - HOME - Featured Funds - Fund Details";
+		testDescription = "Validating - HOME - Featured Funds - Fund Details";
+	}
+	
+	@Test
+	public void validateFeaturedFundsDetails() throws InterruptedException {		
+		try {
+			System.out.println("Test Case: " + testDescription);
+		
+			new UKHomePage(driver, test)
+			.selectActor(sActor)
+			.validateFeaturedFundsDetails();
+			
+			
+		}catch(Exception e){
+			printUnexpectedLogDuringExecution(e);
+		}
+		
+	}
+}

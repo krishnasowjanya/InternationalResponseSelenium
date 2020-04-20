@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lux_Intl_Suite">
+<parameter name="country" value="Luxembourg"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+    <!--       <class name="internationalTests.Luxembourg.PFOL008_NumberOfHoldings"/> -->
+    <!--       <class name="internationalTests.Luxembourg.PFOL009_NumberOfIssuers"/> -->
+	
+      <class name="internationalTests.Luxembourg.PFOL020_PortfolioStatistics_Equity"/>
+   <class name="internationalTests.Luxembourg.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Luxembourg.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Luxembourg.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.PFOL016_SectorExposure"/>
+      <class name="internationalTests.Luxembourg.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Luxembourg.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Luxembourg.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Luxembourg.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Luxembourg.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Luxembourg.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Luxembourg.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Luxembourg.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Luxembourg.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Luxembourg.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Luxembourg.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Luxembourg.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Luxembourg.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Luxembourg.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Luxembourg.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Luxembourg.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Luxembourg.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Luxembourg.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Luxembourg.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Luxembourg.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.Luxembourg.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.Luxembourg.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Luxembourg.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Luxembourg.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Luxembourg.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.Luxembourg.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.Luxembourg.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Luxembourg.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Luxembourg.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Luxembourg.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Luxembourg.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Luxembourg.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.Luxembourg.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.Luxembourg.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PPSS006_FundIdentifiersTab"/>
+      <class name="internationalTests.Luxembourg.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Luxembourg.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Luxembourg.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.Luxembourg.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Luxembourg.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.Luxembourg.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Luxembourg.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Luxembourg.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Luxembourg.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Luxembourg.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Luxembourg.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.Luxembourg.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.Luxembourg.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Luxembourg.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.Luxembourg.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

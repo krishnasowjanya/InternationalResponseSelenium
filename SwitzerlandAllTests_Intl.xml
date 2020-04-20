@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Switzerland_Intl_Suite">
+<parameter name="country" value="Switzerland"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+    	<!--       <class name="internationalTests.Switzerland.PFOL009_NumberOfIssuers"/> -->
+    	<!--       <class name="internationalTests.Switzerland.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.Switzerland.PFOL020_PortfolioStatistics_Equity"/>
+      <class name="internationalTests.Switzerland.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.Switzerland.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Switzerland.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Switzerland.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Switzerland.PFOL016_SectorExposure"/>
+      <class name="internationalTests.Switzerland.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Switzerland.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Switzerland.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Switzerland.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Switzerland.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Switzerland.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Switzerland.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Switzerland.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Switzerland.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Switzerland.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Switzerland.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Switzerland.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Switzerland.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Switzerland.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Switzerland.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Switzerland.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Switzerland.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Switzerland.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Switzerland.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Switzerland.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Switzerland.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Switzerland.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Switzerland.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Switzerland.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Switzerland.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.Switzerland.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.Switzerland.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Switzerland.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Switzerland.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Switzerland.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.Switzerland.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.Switzerland.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Switzerland.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Switzerland.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Switzerland.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Switzerland.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Switzerland.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.Switzerland.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.Switzerland.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Switzerland.PPSS006_FundIdentifiersTab"/>
+      <class name="internationalTests.Switzerland.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Switzerland.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Switzerland.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.Switzerland.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.Switzerland.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Switzerland.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.Switzerland.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Switzerland.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Switzerland.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Switzerland.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Switzerland.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Switzerland.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Switzerland.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.Switzerland.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.Switzerland.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Switzerland.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.Switzerland.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

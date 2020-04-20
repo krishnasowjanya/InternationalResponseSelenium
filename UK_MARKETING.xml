@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" UK_MarketingTestCases">
+<parameter name="country" value="UK"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+        <class name="internationalTests.UK.Marketing.HOME012_Caveats"/>
+      <class name="internationalTests.UK.Marketing.COMP011_MediaContacts"/>
+      <class name="internationalTests.UK.Marketing.INST002_Blogs"/>
+      <class name="internationalTests.UK.Marketing.COMP003_History"/>
+      <class name="internationalTests.UK.Marketing.RESR004_FundDocuments_3"/>
+      <class name="internationalTests.UK.Marketing.RESR007_FundSubscription"/>
+      <class name="internationalTests.UK.Marketing.HOME014_Careers"/>
+      <class name="internationalTests.UK.Marketing.INST001_GlobalInvestmentOutlook"/>
+      <class name="internationalTests.UK.Marketing.COMP001_OurFirm"/>
+      <class name="internationalTests.UK.Marketing.INST003_OurInsights"/>
+      <class name="internationalTests.UK.Marketing.COMP012_PressReleases"/>
+      <class name="internationalTests.UK.Marketing.HOME011_FooterLinks"/>
+      <class name="internationalTests.UK.Marketing.RESR003_FundDocuments_2"/>
+      <class name="internationalTests.UK.Marketing.COMP014_Subscription"/>
+      <class name="internationalTests.UK.Marketing.COMP007_TreatingCustomersFairly"/>
+      <class name="internationalTests.UK.Marketing.SRCH001_SiteSearch"/>
+      <class name="internationalTests.UK.Marketing.HOME007_Insights"/>
+      <class name="internationalTests.UK.Marketing.COMP016_SharperFocusOnOutcomes"/>
+      <class name="internationalTests.UK.Marketing.COMP010_MediaCentre"/>
+      <class name="internationalTests.UK.Marketing.COMP015_ContactUs"/>
+      <class name="internationalTests.UK.Marketing.HOME002_MegaMenu"/>
+      <class name="internationalTests.UK.Marketing.RESR005_ReportingFundInformation"/>
+      <class name="internationalTests.UK.Marketing.RESR011_ApplicationFormsDocs"/>
+      <class name="internationalTests.UK.Marketing.RESR001_Literature"/>
+      <class name="internationalTests.UK.Marketing.RESR002_FundDocuments_1"/>
+      <class name="internationalTests.UK.Marketing.COMP009_UKProfile"/>
+      <class name="internationalTests.UK.Marketing.INST005_EmergingMarkets"/>
+      <class name="internationalTests.UK.Marketing.HOME009_FeaturedFunds_FundDetails"/>
+      <class name="internationalTests.UK.Marketing.COMP008_RegulatoryInformation"/>
+      <class name="internationalTests.UK.Marketing.COMP006_DiversityAtWork"/>
+      <class name="internationalTests.UK.Marketing.INST007_MultiAsset"/>
+      <class name="internationalTests.UK.Marketing.INST004_Alternatives"/>
+      <class name="internationalTests.UK.Marketing.RESR009_IntroductionToMutualFunds"/>
+      <class name="internationalTests.UK.Marketing.HOME004_Banner"/>
+      <class name="internationalTests.UK.Marketing.HOME001_RoleSelector"/>
+      <class name="internationalTests.UK.Marketing.HOME005_QuickLinks"/>
+      <class name="internationalTests.UK.Marketing.COMP005_ResponsibleInvesting"/>
+      <class name="internationalTests.UK.Marketing.HOME015_UKLogo_SiteMaps"/>
+      <class name="internationalTests.UK.Marketing.HOME008_FeaturedFunds"/>
+      <class name="internationalTests.UK.Marketing.RESR008_InvestorEducation"/>
+      <class name="internationalTests.UK.Marketing.INST011_Equity"/>
+      <class name="internationalTests.UK.Marketing.HOME013_Contacts"/>
+      <class name="internationalTests.UK.Marketing.COMP013_CompanyStatements"/>
+      <class name="internationalTests.UK.Marketing.COMP004_RiskManagement"/>
+      <class name="internationalTests.UK.Marketing.HOME003_BenLogo"/>
+      <class name="internationalTests.UK.Marketing.COMP002_WhyChooseFT"/>
+      <class name="internationalTests.UK.Marketing.HOME006_FeaturedCards"/>
+      <class name="internationalTests.UK.Marketing.RESR006_StatementUserGuides"/>
+      <class name="internationalTests.UK.Marketing.HOME010_FeaturedFunds_FundDocuments"/>
+      <class name="internationalTests.UK.Marketing.INST006_FixedIncome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- MarketingTestCases -->

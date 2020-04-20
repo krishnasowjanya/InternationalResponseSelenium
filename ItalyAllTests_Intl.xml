@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Italy_Intl_Suite">
+<parameter name="country" value="Italy"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+    	<!--       <class name="internationalTests.Italy.PFOL008_NumberOfHoldings"/> -->
+    	<!-- <class name="internationalTests.Italy.PFOL009_NumberOfIssuers"/> -->
+      <class name="internationalTests.Italy.PFOL020_PortfolioStatistics_Equity"/>
+      <class name="internationalTests.Italy.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.Italy.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Italy.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Italy.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Italy.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Italy.PFOL016_SectorExposure"/>
+      <class name="internationalTests.Italy.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Italy.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.Italy.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Italy.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Italy.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Italy.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Italy.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Italy.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Italy.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Italy.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Italy.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Italy.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Italy.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Italy.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Italy.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Italy.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Italy.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Italy.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Italy.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Italy.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Italy.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Italy.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Italy.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Italy.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Italy.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.Italy.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.Italy.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.Italy.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Italy.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Italy.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Italy.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.Italy.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.Italy.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Italy.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Italy.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Italy.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Italy.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Italy.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.Italy.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.Italy.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Italy.PPSS006_FundIdentifiersTab"/>
+      <class name="internationalTests.Italy.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Italy.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Italy.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.Italy.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.Italy.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Italy.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+      <class name="internationalTests.Italy.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.Italy.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Italy.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Italy.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Italy.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Italy.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Italy.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Italy.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Italy.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Italy.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.Italy.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.Italy.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Italy.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.Italy.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

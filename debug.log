@@ -1,0 +1,8 @@
+[0320/095744.210:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0503/154606.830:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0503/154659.210:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0503/154659.212:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0906/171912.734:ERROR:crashpad_client_win.cc(491)] CreateProcess: Access is denied. (0x5)
+[1112/125959.090:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pkweera\AppData\Local\Temp\scoped_dir23380_4736\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1112/125959.118:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pkweera\AppData\Local\Temp\scoped_dir23380_4736\Crashpad\reports\ffba7fd5-98c0-4f04-9ff5-c92eaac3be6d.dmp: The system cannot find the path specified. (0x3)
+[1112/125959.118:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

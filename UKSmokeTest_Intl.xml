@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="UK_Smoke_Suite" parallel="classes">
+<parameter name="country" value="UK"/>
+  <test name="Test">
+    <classes>
+      <class name="internationalTests.UK.Smoke.SMOK003_SiteSearchCaveat"/>
+<!--       <class name="internationalTests.UK.Smoke.SMOK001_HomePage"/> -->
+<!--       <class name="internationalTests.UK.Smoke.SMOK006_FundDocuments_1"/>
+      <class name="internationalTests.UK.Smoke.SMOK004_Blogs"/>
+      <class name="internationalTests.UK.Smoke.SMOK002_PPSSPage"/>
+      <class name="internationalTests.UK.Smoke.SMOK005_OurInsights"/>
+      <class name="internationalTests.UK.Smoke.SMOK007_FundDocuments_2"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- UK_Smoke_Suite -->

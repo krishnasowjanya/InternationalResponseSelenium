@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Singapore_Intl_Suite">
+<parameter name="country" value="Singapore"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="internationalTests.Singapore.PFOL020_PortfolioStatistics_Equity"/>
+<!--       <class name="internationalTests.Singapore.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/> -->
+      <class name="internationalTests.Singapore.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.Singapore.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.Singapore.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.Singapore.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.Singapore.PFOL016_SectorExposure"/>
+<!--       <class name="internationalTests.Singapore.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/> -->
+<!--       <class name="internationalTests.Singapore.PDST006_PriceAndDistributionHistoricalDividend"/> -->
+      <class name="internationalTests.Singapore.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.Singapore.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.Singapore.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.Singapore.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.Singapore.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Singapore.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.Singapore.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.Singapore.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.Singapore.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.Singapore.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.Singapore.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.Singapore.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.Singapore.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.Singapore.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.Singapore.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.Singapore.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.Singapore.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.Singapore.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.Singapore.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.Singapore.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.Singapore.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.Singapore.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Singapore.PFOL013_PortfolioValueAtRisk"/>
+<!--       <class name="internationalTests.Singapore.PDST005_PriceAndDistributionDividends"/> -->
+<!--       <class name="internationalTests.Singapore.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/> -->
+      <class name="internationalTests.Singapore.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.Singapore.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.Singapore.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.Singapore.FDOC001_FDDocumentWidgets"/>
+<!--       <class name="internationalTests.Singapore.PERF018_PerformanceDiscreteAnnualPerformanceTab"/> -->
+      <class name="internationalTests.Singapore.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.Singapore.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.Singapore.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.Singapore.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.Singapore.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.Singapore.PPSS007_PPSSPage_Filters"/>
+<!--       <class name="internationalTests.Singapore.FOVW008_Overview_DividendDistributionYield"/> -->
+<!--       <class name="internationalTests.Singapore.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/> -->
+      <class name="internationalTests.Singapore.PPSS006_FundIdentifiersTab"/>
+<!--       <class name="internationalTests.Singapore.PFOL008_NumberOfHoldings"/> -->
+      <class name="internationalTests.Singapore.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.Singapore.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.Singapore.PPSS002_Performance_Cumulative"/>
+<!--       <class name="internationalTests.Singapore.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/> -->
+      <class name="internationalTests.Singapore.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.Singapore.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+<!--       <class name="internationalTests.Singapore.PFOL009_NumberOfIssuers"/> -->
+<!--       <class name="internationalTests.Singapore.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/> -->
+      <class name="internationalTests.Singapore.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.Singapore.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.Singapore.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.Singapore.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.Singapore.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Singapore.FOVW009_Overview_PerfSnpDiscrete_Performance"/>
+      <class name="internationalTests.Singapore.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.Singapore.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.Singapore.FOVW013_Overview_FindAFund"/>
+<!--       <class name="internationalTests.Singapore.PPSS003_Performance_DiscreteAnnaul"/> -->
+      <class name="internationalTests.Singapore.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.Singapore.PPSS005_Performance_CumulativeDataMonthEnd"/>
+<!--       <class name="internationalTests.Singapore.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/> -->
+   <class name="internationalTests.Singapore.PPSS003_Performance_Annualized"/>
+      <class name="internationalTests.Singapore.PPSS004_Performance_AnnualizedDataMonthEnd"/>
+         <class name="internationalTests.Singapore.PPSS010_Performance_AnnualizedDataQuarterEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

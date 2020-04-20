@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UK_Intl_Suite">
+<parameter name="country" value="UK"/>
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+   		<!--       <class name="internationalTests.UK.PFOL008_NumberOfHoldings"/> -->
+   		  <!--     <class name="internationalTests.UK.PFOL009_NumberOfIssuers"/> -->
+      <class name="internationalTests.UK.PFOL020_PortfolioStatistics_Equity"/>
+      <class name="internationalTests.UK.PERF020_PerformanceDiscreteAnnualPerformanceQuarterEnd"/>
+      <class name="internationalTests.UK.PERF014_PerformanceCalendarYearPerformanceMonthEnd"/>
+      <class name="internationalTests.UK.PERF002_PerformanceCumulativePerformanceTab"/>
+      <class name="internationalTests.UK.FOVW018_Overview_ImportantLegalInformation"/>
+      <class name="internationalTests.UK.PERF005_PerformanceCumulativePerformanceQuarterEnd"/>
+      <class name="internationalTests.UK.PFOL016_SectorExposure"/>
+      <class name="internationalTests.UK.PERF029_PerformanceDiscreteAnnualPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.UK.PDST006_PriceAndDistributionHistoricalDividend"/>
+      <class name="internationalTests.UK.FOVW001_Overview_FundContent"/>
+      <class name="internationalTests.UK.PERF030_PerformanceRiskMeasures_OvrvwStaticSection"/>
+      <class name="internationalTests.UK.PFOL012_ManagerAllocation"/>
+      <class name="internationalTests.UK.FOVW007_Overview_Fund_Managers"/>
+      <class name="internationalTests.UK.PERF022_PerformanceCumulativePerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.UK.PPSS008_PPSSPage_FindaFundSection"/>
+      <class name="internationalTests.UK.PDST004_PriceAndDistributionHighestLowestNAV"/>
+      <class name="internationalTests.UK.PERF016_PerformanceCalendarYearPerformanceCaveats"/>
+      <class name="internationalTests.UK.PPSS011_Performance_CumulativeDataQuarterEnd"/>
+      <class name="internationalTests.UK.FOVW006_Overview_Ratings"/>
+      <class name="internationalTests.UK.FOVW016_Overview_ShareClass"/>
+      <class name="internationalTests.UK.PFOL019_PortfolioComponentsBasedOnAssetClass"/>
+      <class name="internationalTests.UK.PDST007_PriceAndDistributionNAVPrices"/>
+      <class name="internationalTests.UK.FOVW002_Overview_NAVPrice"/>
+      <class name="internationalTests.UK.PFOL006_MarketCapitalisation"/>
+      <class name="internationalTests.UK.PERF010_PerformanceAnnualisedPerformanceQuarterEnd"/>
+      <class name="internationalTests.UK.PFOL005_GeographicalAllocation"/>
+      <class name="internationalTests.UK.PFOL010_PortfolioExposure"/>
+      <class name="internationalTests.UK.PFOL018_PortfolioComponentsBasedOnFund"/>
+      <class name="internationalTests.UK.PERF011_PerformanceAnnualisedPerformanceCaveats"/>
+      <class name="internationalTests.UK.PFOL007_PortfolioStatistics_FixedIncome"/>
+      <class name="internationalTests.UK.PERF026_PerformanceCalendarYearPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.UK.PFOL013_PortfolioValueAtRisk"/>
+      <class name="internationalTests.UK.PDST005_PriceAndDistributionDividends"/>
+      <class name="internationalTests.UK.PPSS004_Performance_DiscreteAnnaulDataMonthEnd"/>
+      <class name="internationalTests.UK.PERF013_PerformanceCalendarYearPerformanceTab"/>
+      <class name="internationalTests.UK.PERF031_PerformanceRiskMeasures_StdDevSharpeRatio"/>
+      <class name="internationalTests.UK.FOVW003_Overview_Fund_Information"/>
+      <class name="internationalTests.UK.FDOC001_FDDocumentWidgets"/>
+      <class name="internationalTests.UK.PERF018_PerformanceDiscreteAnnualPerformanceTab"/>
+      <class name="internationalTests.UK.PERF008_PerformanceAnnualisedPerformanceTab"/>
+      <class name="internationalTests.UK.PDST003_PriceAndDistributionHistoricalNAVSearch"/>
+      <class name="internationalTests.UK.PFOL017_SectorAllocation"/>
+      <class name="internationalTests.UK.PERF006_PerformanceCumulativePerformanceCaveats"/>
+      <class name="internationalTests.UK.PFOL014_PortfolioAllocation"/>
+      <class name="internationalTests.UK.PPSS007_PPSSPage_Filters"/>
+      <class name="internationalTests.UK.FOVW008_Overview_DividendDistributionYield"/>
+      <class name="internationalTests.UK.PERF028_PerformanceDiscreteAnnualPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.UK.PPSS006_FundIdentifiersTab"/>
+      <class name="internationalTests.UK.PFOL021_PortfolioStatistics_NumberOfIssuersHoldings"/>
+      <class name="internationalTests.UK.FOVW012_Overview_BreadCrumbs"/>
+      <class name="internationalTests.UK.PPSS002_Performance_Cumulative"/>
+      <class name="internationalTests.UK.PPSS010_Performance_DiscreteAnnaulDataQuarterEnd"/>
+      <class name="internationalTests.UK.PFOL015_TopRiskAllocationByAssetClass"/>
+      <class name="internationalTests.UK.PERF004_PerformanceCumulativePerformanceMonthEnd"/>
+      <class name="internationalTests.UK.PERF021_PerformanceDiscreteAnnualPerformanceCaveats"/>
+      <class name="internationalTests.UK.PPSS001_PageNavigationAndOverview"/>
+      <class name="internationalTests.UK.FOVW004_Overview_Sales_Charge"/>
+      <class name="internationalTests.UK.PERF009_PerformanceAnnualisedPerformanceMonthEnd"/>
+      <class name="internationalTests.UK.PERF024_PerformanceAnnualisedPerformanceViewAllShareClassMonthEnd"/>
+      <class name="internationalTests.UK.PERF023_PerformanceCumulativePerformanceViewAllShareClassQuarterEnd"/>
+<!--       <class name="internationalTests.UK.FOVW009_Overview_PerfSnpDiscrete_Performance"/> -->
+      <class name="internationalTests.UK.PERF025_PerformanceAnnualisedPerformanceViewAllShareClassQuarterEnd"/>
+      <class name="internationalTests.UK.FOVW005_Overview_Fund_Identifiers"/>
+      <class name="internationalTests.UK.FOVW013_Overview_FindAFund"/>
+      <class name="internationalTests.UK.PPSS003_Performance_DiscreteAnnaul"/>
+      <class name="internationalTests.UK.PFOL011_PortfolioStrategyBreakdown"/>
+      <class name="internationalTests.UK.PPSS005_Performance_CumulativeDataMonthEnd"/>
+      <class name="internationalTests.UK.PERF019_PerformanceDiscreteAnnualPerformanceMonthEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
